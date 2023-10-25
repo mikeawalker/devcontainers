@@ -1,0 +1,15 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile",
+		"cacheFrom": "continuumio/anaconda3"
+	  },
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+		// Add the IDs of extensions you want installed when the container is created.
+		  "extensions": ["ms-toolsai.jupyter", 
+						  "ms-python.python"
+						]
+		 }
+		}
+}
